@@ -269,7 +269,7 @@ header {
 
 /* feature */
 .feature {
-  margin: 100px auto;
+  padding: 100px auto;
 }
 .container-flex {
   margin: 20px auto;
