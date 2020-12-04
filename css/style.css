@@ -268,6 +268,10 @@ header {
 }
 
 /* feature */
+.feature {
+  margin: 100px auto;
+  text-align: center;
+}
 .container-flex {
   margin: 20px auto;
   display: flex;
