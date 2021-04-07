@@ -192,13 +192,14 @@ header {
   width: 100%;
 }
 .worries-container {
-  width: 700px;
+  width: 70%;
   background-color: white;
   margin: 50px auto;
   padding: 50px;
 }
 .worries-text {
-  padding-left: 24px;
+  font-size: 30px;
+  padding-left: 40px;
   position: relative;
 }
 .worries-text:before, .worries-text:after {
@@ -207,8 +208,8 @@ header {
   position: absolute;
 }
 .worries-text:before {
-  width: 16px;
-  height: 16px;
+  width: 30px;
+  height: 30px;
   background: #fff;
   border: 1px solid #000;
   left: 0;
@@ -217,8 +218,8 @@ header {
 .worries-text:after {
   border-left: 2px solid #ff0000;
   border-bottom: 2px solid #ff0000;
-  width: 18px;
-  height: 5px;
+  width: 28px;
+  height: 10px;
   transform: rotate(-45deg);
   left: 5px;
   top: 3px;
