@@ -13,7 +13,7 @@ body {
 .header-back {
   background-image: url(../img/header-bg.jpg);
   background-size: 100% auto;
-  height: 90vh;
+  height: 1100px;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -67,32 +67,35 @@ body {
   font-style: italic;
   text-shadow: 1px 1px 2px gray;
 }
-.header-text br {
-  display: none;
-}
 
+
+@media screen and (max-width: 1600px){
+  .header-back {
+    height: 900px;
+  }
+}
 @media screen and (max-width: 1300px){
   .header-back {
-    height: 50vh;
+    height: 700px;
+  }
+}
+@media screen and (max-width: 1000px){
+  .header-back {
+    height: 500px;
   }
 }
 
 @media screen and (max-width: 640px){
   .header-text {
     font-size: 15px;
-    top: 10%;
+    top: 20%;
     right: 15%;
   }
   .header-back {
-    height: 40vh;
+    height: 350px;
   }
 }
 
-@media screen and (max-width: 500px){
-  .header-back {
-    height: 25vh;
-  }
-}
 
 
 /* product */
@@ -144,8 +147,9 @@ body {
   .container {
     width: 90%;
   }
-    .product {
+  .product {
     margin: 50px auto 100px auto;
+    text-align: center;
   }
 }
 @media screen and (max-width: 800px) {
