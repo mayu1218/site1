@@ -42,6 +42,7 @@ body {
   line-height: 85px;
   text-align: center;
   text-decoration: none;
+  font-size: 25px;
 }
 .header-nav ul li:hover {
   background-color: #f0edec;
@@ -78,7 +79,9 @@ body {
 
 @media screen and (max-width: 640px){
   .header-text {
-    font-size: 20px;
+    font-size: 15px;
+    top: 60%;
+    right: 15%;
   }
   .header-back {
     height: 40vh;
