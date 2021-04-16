@@ -87,7 +87,7 @@ body {
 
 @media screen and (max-width: 500px){
   .header-back {
-    height: 30vh;
+    height: 25vh;
   }
 }
 
@@ -140,6 +140,9 @@ body {
 @media screen and (max-width: 900px) {
   .container {
     width: 90%;
+  }
+    .product {
+    margin: 50px auto 100px auto;
   }
 }
 @media screen and (max-width: 800px) {
