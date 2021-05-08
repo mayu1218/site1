@@ -62,34 +62,51 @@ body {
   font-size: 2.5vw;
   font-weight: bold;
   position: absolute;
-  top: 10%;
+  top: 30%;
   right: 15%;
   font-style: italic;
   text-shadow: 1px 1px 2px gray;
+  writing-mode: vertical-rl;
+  letter-spacing: 5px;
 }
-
+.large {
+  font-size: 80px;
+}
 
 @media screen and (max-width: 1600px){
   .header-back {
     height: 900px;
+  }
+  .header-text {
+    font-size: 50px;
   }
 }
 @media screen and (max-width: 1300px){
   .header-back {
     height: 700px;
   }
+  .header-text {
+    font-size: 40px;
+  }
+  .large {
+    font-size: 50px;
+  }
 }
 @media screen and (max-width: 1000px){
   .header-back {
     height: 500px;
   }
+  .header-text {
+    font-size: 30px;
+  }
+  .large {
+    font-size: 33px;
+  }
 }
 
 @media screen and (max-width: 640px){
   .header-text {
-    font-size: 15px;
-    top: 20%;
-    right: 15%;
+    font-size: 20px;
   }
   .header-back {
     height: 350px;
